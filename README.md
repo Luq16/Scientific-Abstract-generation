@@ -1,6 +1,6 @@
-# Scientific Abstract generation
+# Scientific abstract generation
 
-In this project, I have created a tools that could generate scientific abstract.
+In this project, I have created a tools that uses LLM to generate scientific abstract for publication.
 See an example below:
 
 ## Input message:
