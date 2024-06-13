@@ -18,7 +18,7 @@ Your task is to write an abstract for publication, based on the topics that are 
 You should respect the instructions: the TONE, the LENGTH, and the STYLE'''
 
 
-def assist_journalist(
+def assist_researcher(
         facts: List[str],
         tone: str, length_words: int, style: str):
     facts = ", ".join(facts)
@@ -27,6 +27,6 @@ def assist_journalist(
 
 
 print(
-    assist_journalist(
+    assist_researcher(
         ['Role of SUMO1 in BCR signaling'],
         'academic', 200, 'Publication abstract'))
